@@ -1,0 +1,99 @@
+body {
+	background-color: grey;
+	height: 100%;
+}
+
+header {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #0000FF;
+	width: 90%;
+	height: 50px;
+	border-radius: 10px;
+	box-shadow: 15px 10px 15px;
+	padding: 20px;
+}
+
+address {
+	color: white;
+}
+
+.heading {
+	margin: auto;
+	color: white;
+	text-shadow: 5px 5px #000000;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+a {
+	color: #F5FFFA;
+}
+
+.login a:hover, .sign_up a:hover {
+	text-decoration: none;
+}
+
+.logout a, .logged_on_user a {
+	text-decoration: none;
+}
+
+.login, .logged_on_user {
+	width: 8%;
+}
+
+.sign_up, .logout {
+	width: 8%;
+}
+
+#ggg {
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row nowrap;
+}
+
+.nav {
+	background-color: #A9A9A9;
+	margin: 25px 25px 25px 15px;
+	border-radius: 10px;
+	box-shadow: 15px 10px 15px;
+	padding: 15px;
+	height: 200px;
+}
+
+.products {
+	background-color: #A9A9A9;
+	margin: 25px 25px 25px 15px;
+	border-radius: 10px;
+	box-shadow: 15px 10px 15px;
+	padding: 15px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.basket {
+	background-color: #A9A9A9;
+	margin: 25px 25px 25px 15px;
+	border-radius: 10px;
+	box-shadow: 15px 10px 15px;
+	padding: 15px;
+	height: 115px;
+}
+
+.rights {
+	text-align: right;
+}
+
+.rights span {
+	color: white;
+	font-family: monospace;
+	font-style: italic;
+}
